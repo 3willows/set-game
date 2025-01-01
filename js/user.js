@@ -108,8 +108,8 @@ export default {
         // Waiting for user to pick three cards
         game.waiting = true;
 
-        // Start a 10 seconds clock
-        clock.countdown(10);
+        // Start a 10 minute clock
+        clock.countdown(6000);
 
         // Stop bot tests
         ai.foundSet = true;
